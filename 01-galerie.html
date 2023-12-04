@@ -12,7 +12,13 @@
 x-data="{imgUrl: 'https://picsum.photos/id/237/400/300'}"
 >
     <h1>Galerie</h1>
-    <p>lorem⇥</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita rerum ad saepe, assumenda unde accusamus. Harum quas natus numquam, delectus sit accusamus omnis cupiditate odio maiores error quo libero.</p>
+    <img src="https://picsum.photos/id/237/120/90" alt="miniature chiot"
+    @click="imgUrl='https://picsum.photos/id/237/400/300'"
+    >
+    <img src="https://picsum.photos/id/238/120/90" alt="miniature newyork"
+    @click="imgUrl='https://picsum.photos/id/238/400/300'"
+    >
     <div 
     class="overlay"
     x-show="imgUrl"
