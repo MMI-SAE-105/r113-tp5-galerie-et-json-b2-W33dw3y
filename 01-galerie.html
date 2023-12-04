@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallerie & Chargement JSON</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body>
+
+<body
+x-data="{imgUrl: 'https://picsum.photos/id/237/400/300'}"
+>
     <h1>Galerie</h1>
-<p>lorem⇥</p>
-<div class="overlay">
-    <figure><img src="https://picsum.photos/id/237/400/300" alt="image 237... un chiot"></figure>
-</div>
+    <p>lorem⇥</p>
+    <div class="overlay">
+        <figure><img :src="imgUrl" alt="image 237... un chiot"></figure>
+    </div>
     
 </body>
 </html>
