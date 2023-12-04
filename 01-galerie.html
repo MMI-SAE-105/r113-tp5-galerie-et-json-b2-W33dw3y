@@ -10,7 +10,10 @@
 
 <body
 x-data="{imgUrl: null,
-
+async tabimg() {
+    const resp = await fetch('images.json');
+    return await resp.json();
+    },
 }"
 >
     <h1>Galerie</h1>
