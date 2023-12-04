@@ -16,7 +16,7 @@ x-data="{imgUrl: 'https://picsum.photos/id/237/400/300'}"
     <div 
     class="overlay"
     x-show="imgUrl"
-    @click="imgUrl = null"
+    @keyup.escape.window="imgUrl=null"
     >
         <figure><img :src="imgUrl" alt="image 237... un chiot"></figure>
     </div>
