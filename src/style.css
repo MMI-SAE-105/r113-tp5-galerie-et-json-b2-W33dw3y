@@ -8,12 +8,19 @@
     }
     .overlay {
         /* Sit on top of the page content */
+        position: absolute;
         /* Full width (cover the whole page) */
+        width: 100vw;
         /* Full height (cover the whole page) */
+        height: 100vh;
         /* Stay at the top */
+        top: 0;
         /* Stay at the left */
+        left: 0;
         /* Stay at the right */
+        right: 0;
         /* Stay at the bottom */
+        bottom: 0;
         /* Black background with opacity */
         /* Add a pointer on hover */
         /* Use a grid for easy centering */
