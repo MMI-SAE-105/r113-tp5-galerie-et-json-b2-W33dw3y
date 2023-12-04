@@ -1,12 +1,17 @@
 [
     {
         "petite": "https://picsum.photos/id/237/120/90",
-        "alt": "miniature montagne",
+        "alt": "chiot",
         "grande": "https://picsum.photos/id/237/400/300"
     },
     {
         "petite": "https://picsum.photos/id/238/120/90",
-        "alt": "miniature lac",
+        "alt": "nzw york",
         "grande": "https://picsum.photos/id/238/400/300"
+    },
+    {
+    "petite": "https://picsum.photos/id/239/120/90",
+    "alt": "pissenlit",
+    "grande": "https://picsum.photos/id/239/400/300"
     }
 ]
