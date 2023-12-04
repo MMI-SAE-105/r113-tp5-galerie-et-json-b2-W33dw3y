@@ -1,0 +1,12 @@
+[
+    {
+        "petite": "https://picsum.photos/id/237/120/90",
+        "alt": "miniature montagne",
+        "grande": "https://picsum.photos/id/237/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/238/120/90",
+        "alt": "miniature lac",
+        "grande": "https://picsum.photos/id/238/400/300"
+    }
+]
