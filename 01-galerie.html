@@ -10,22 +10,33 @@
 
 <body
 x-data="{imgUrl: null,
-toutesLesImages: [
+tabimg: [
     {
-        petite: 'https://picsum.photos/id/235/120/90',
+        petite: 'https://picsum.photos/id/237/120/90',
         alt: 'miniature montagne',
-        grande: 'https://picsum.photos/id/235/400/300
+        grande: 'https://picsum.photos/id/237/400/300'
     },
     {
-        petite: 'https://picsum.photos/id/236/120/90',
+        petite: 'https://picsum.photos/id/238/120/90',
         alt: 'miniature lac',
-        grande: 'https://picsum.photos/id/236/400/300
+        grande: 'https://picsum.photos/id/238/400/300'
     }
 ]
 }"
 >
     <h1>Galerie</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita rerum ad saepe, assumenda unde accusamus. Harum quas natus numquam, delectus sit accusamus omnis cupiditate odio maiores error quo libero.</p>
+
+<template
+x-for="img of tabimg"
+>
+    <img 
+    :src="img.petite" 
+    :alt="img.alt"
+    @click="imgUrl=img.grande"
+    >
+</template>
+
     <div 
     class="overlay"
     x-show="imgUrl"
