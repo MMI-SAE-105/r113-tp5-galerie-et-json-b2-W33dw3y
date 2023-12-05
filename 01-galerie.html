@@ -36,6 +36,7 @@ async tabimg() {
     x-show="imgUrl"
     @keyup.escape.window="imgUrl=null"
     >
+    <div @click="imgUrl=null" class="close-overlay">&times;</div>
         <figure><img :src="imgUrl" alt="image 237... un chiot"></figure>
     </div>
     

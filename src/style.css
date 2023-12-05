@@ -23,9 +23,8 @@
     place-content: center;
 }
 
-.overlay::after {
+.close-overlay {
     /* Add content : "X" */
-    content: 'X';
     /* White text color */
     color: white;
     /* Black background color */
@@ -85,6 +84,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }  
+
+p {
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
 
 .gallerie {
     width: 100%;
