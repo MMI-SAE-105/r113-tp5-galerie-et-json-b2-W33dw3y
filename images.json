@@ -6,7 +6,7 @@
     },
     {
         "petite": "https://picsum.photos/id/238/120/90",
-        "alt": "nzw york",
+        "alt": "new york",
         "grande": "https://picsum.photos/id/238/400/300"
     },
     {
@@ -16,17 +16,47 @@
     },
     {
         "petite": "https://picsum.photos/id/300/120/90",
-        "alt": "nzw york",
+        "alt": "desert",
         "grande": "https://picsum.photos/id/300/400/300"
     },
     {
         "petite": "https://picsum.photos/id/301/120/90",
-        "alt": "nzw york",
+        "alt": "chemin",
         "grande": "https://picsum.photos/id/301/400/300"
     },
     {
         "petite": "https://picsum.photos/id/302/120/90",
-        "alt": "nzw york",
+        "alt": "ocean",
         "grande": "https://picsum.photos/id/302/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/236/120/90",
+        "alt": "plage",
+        "grande": "https://picsum.photos/id/236/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/304/120/90",
+        "alt": "vaccin",
+        "grande": "https://picsum.photos/id/304/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/305/120/90",
+        "alt": "barriere",
+        "grande": "https://picsum.photos/id/305/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/306/120/90",
+        "alt": "fleur",
+        "grande": "https://picsum.photos/id/306/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/307/120/90",
+        "alt": "bois",
+        "grande": "https://picsum.photos/id/307/400/300"
+    },
+    {
+        "petite": "https://picsum.photos/id/308/120/90",
+        "alt": "ville",
+        "grande": "https://picsum.photos/id/308/400/300"
     }
 ]

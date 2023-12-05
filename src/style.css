@@ -71,12 +71,33 @@
     height: auto;
 }
 
+/*MISE EN FORME GENERALE*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: 
+      linear-gradient(217deg,rgba(197, 197, 197, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+      linear-gradient(127deg, rgb(199, 154, 199), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 213, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+}  
+
+.gallerie {
+    width: 100%;
+    max-width: 377px;
+}
+
 /*MISE EN FORME DES IMAGES*/
 
 .image {
-    margin: 1px;
+    margin: 0px 2px;
     border: 1px solid black;
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+
 }
 
 .image:hover {
