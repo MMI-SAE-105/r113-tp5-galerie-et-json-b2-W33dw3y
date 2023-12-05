@@ -19,15 +19,16 @@ async tabimg() {
     <h1>Galerie</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita rerum ad saepe, assumenda unde accusamus. Harum quas natus numquam, delectus sit accusamus omnis cupiditate odio maiores error quo libero.</p>
 
-<template
-x-for="img of tabimg"
->
-    <img 
-    :src="img.petite" 
-    :alt="img.alt"
-    @click="imgUrl=img.grande"
+    <template
+    x-for="img of tabimg"
     >
-</template>
+        <img 
+        class="image"
+        :src="img.petite" 
+        :alt="img.alt"
+        @click="imgUrl=img.grande"
+        >
+    </template>
 
     <div 
     class="overlay"

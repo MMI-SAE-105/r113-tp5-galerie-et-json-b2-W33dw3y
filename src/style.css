@@ -70,3 +70,15 @@
     /* Height auto for keeping the ratio */
     height: auto;
 }
+
+/*MISE EN FORME DES IMAGES*/
+
+.image {
+    margin: 1px;
+    border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
