@@ -5,32 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Json</title>
     <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="src/style-json.css">
 </head>
 <body>
     <h1>JSON</h1> 
-    <ul x-data="{
-        données: [ 
-            {
-                nom: 'Jean',
-                projet: 'Alpine.js',
-                url: 'https://alpinejs.dev/'
-            },
-            {
-                nom: 'Maxime',
-                projet: 'Tailwind CSS',
-                url: 'https://tailwindcss.com/'
-            },
-            {
-                nom: 'Adam',
-                projet: 'Laravel',
-                url: 'https://laravel.com/'
-            }
-        ],
-    }">
+    <ul class="list" x-data="{
+    async données() {
+    const resp = await fetch('données.json');
+    return await resp.json();
+    },
+}">
     <template x-for="obj of données">
-        <li>
-            <span x-text="obj.nom">nom</span> 
-            <a :href="obj.url" x-text="obj.projet" >projet</a>
+        <li class="list__element">
+            <span class="list__nom" x-text="obj.nom">nom</span> 
+            <a class="list__objet" :href="obj.url" x-text="obj.projet" >projet</a>
         </li>
     </template>
     </ul>

@@ -1,0 +1,34 @@
+.list {
+    margin: 0;
+    padding: 1rem;
+
+    border: 1px solid black;
+    background-color: rgb(43, 113, 140);
+    width: 100%;
+    max-width: 300px;
+}
+
+.list__element  {
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 2px;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+}
+
+.list__element:hover {
+    transform: scale(1.1);
+}
+
+.list__objet {
+    text-decoration: none;
+    color: purple;
+}
+
+.list__nom  {
+    color: black;
+}
