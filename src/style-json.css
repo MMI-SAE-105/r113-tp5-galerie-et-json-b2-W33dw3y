@@ -1,3 +1,15 @@
+.accueil {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accueil:hover {
+    transform: scale(1.2);
+}
+
 .list {
     margin: 0;
     padding: 1rem;
